@@ -5,6 +5,7 @@
 	<title>Welcome to AZM page</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/me.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -14,9 +15,8 @@
 			font-size: x-large;
 			font-weight: 1000;
 		}
-		footer .inner{
-			margin-left: 300px;
-		}
+
+	
 	</style>
 </head>
 
@@ -25,7 +25,7 @@
 	<!-- Wrapper -->
 	<div id="wrapper">
 
-	<?php
+		<?php
 		include_once("htmlpages/header.html");
 		?>
 
@@ -71,7 +71,7 @@
 
 		<!-- Footer -->
 		<?php
-			include_once("htmlpages/footer.html");
+		include_once("htmlpages/footer.html");
 		?>
 
 	</div>
@@ -85,7 +85,7 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="script/script.js"></script>
-	
+
 
 </body>
 
