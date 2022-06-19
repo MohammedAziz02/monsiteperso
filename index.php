@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/me.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<script src="script/script.js"></script>
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -15,7 +16,7 @@
 			font-size: x-large;
 			font-weight: 1000;
 		}
-
+		
 	
 	</style>
 </head>
@@ -28,6 +29,7 @@
 		<?php
 		include_once("htmlpages/header.html");
 		?>
+		
 
 		<!-- Banner -->
 		<section id="banner" class="major">
@@ -48,7 +50,7 @@
 		<div id="main">
 			<!-- Two -->
 			<section id="two">
-				<div class="inner">
+				<div class="inner" id="testi">
 					<header class="major">
 						<h2>ABOUT ME</h2>
 					</header>
@@ -84,7 +86,6 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="script/script.js"></script>
 
 
 </body>

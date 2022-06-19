@@ -5,7 +5,10 @@ function f(){
     var error = document.getElementById("error");
     if (nom.value == "" && email.value == "" && message.value == "") {
         error.innerHTML = "<h7> error un des champs est vide </h7>";
+        message.focus();
     } else {
-        error.innerHTML = "<h3> error un des champs est vide </h3>"
+        error.innerHTML = "<h3> good for you </h3>";
+       
     }
 }
+
