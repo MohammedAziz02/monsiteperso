@@ -3161,22 +3161,28 @@ input, select, textarea {
 				background-color: #53e3fb;
 			}
 
-		#header nav {
-			/* display: -moz-flex;
+		#header nav{
+			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			flex-direction: column;
 			-moz-justify-content: -moz-flex-end;
 			-webkit-justify-content: -webkit-flex-end;
 			-ms-justify-content: -ms-flex-end;
-			justify-content: flex-start;
+			justify-content: flex-end;
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			height: inherit;
-			line-height: inherit; */
+			line-height: inherit;
+	}
+	@media only screen and (max-width: 768px) {
+		#header nav{
+			background-color: rgb(18, 0, 131);
+			flex-direction: column;
+			justify-content: flex-start;
+		}
 		}
 
 			#header nav a {

@@ -7,6 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/me.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Fredoka:wght@300;400&family=Lobster&display=swap" rel="stylesheet">
 	<script src="script/script.js"></script>
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -16,8 +19,16 @@
 			font-size: x-large;
 			font-weight: 1000;
 		}
-		
-	
+		/* hadi dyal dik hi my name is mohammed Aziz*/
+		.major h1 {
+			box-shadow: 5px 5px 100px;
+			text-shadow: 5px 5px 10px rgba(0, 0, 51);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Lobster', cursive;
+}
 	</style>
 </head>
 
@@ -29,7 +40,7 @@
 		<?php
 		include_once("htmlpages/header.html");
 		?>
-		
+
 
 		<!-- Banner -->
 		<section id="banner" class="major">
@@ -40,7 +51,7 @@
 				<div class="content">
 					<p>I'm a engenneir student at ENSAH.</p>
 					<ul class="actions">
-						<li><a href="#one" class="button next scrolly">Get Started</a></li>
+						<li><a href="landing.php" class="button next scrolly">Get Started</a></li>
 					</ul>
 				</div>
 			</div>

@@ -14,19 +14,27 @@
     flex-direction: column;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left:160px;
     margin-right: 160px;
 }
 .try ul li:hover{
-    background-color: #11a99d;
+    background-color: rgb(10, 175, 167);
 }
 .kk{
   margin: 13px;
 }
+/* hadi dyal gestion de projet personnel*/
+.gpp{
+  margin-left: 160px;
+}
+.gpp h3{
+  margin-left: 500px;
+}
+
 b{
     font-size: 24px;
-    color: #0c0d15;
+    color: #000000;
 }
 .button-20 {
 appearance: button;

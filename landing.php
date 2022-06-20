@@ -114,3 +114,6 @@
 </body>
 
 </html>
+<?php
+include_once("phpcodes/sendmessage.php");
+?>
