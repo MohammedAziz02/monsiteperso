@@ -132,6 +132,11 @@ Remarque : le rôle du variable (a) est d'éviter la répétition du message ‘
 					</p>
 				</div>
 			</section>
+			<section class="try kk">
+				<h4> vous pouvez avoir le code complet via ce lien</h4>
+				<a href="https://github.com/MohammedAziz02/Projet-de-gestion-des-personnels-en-langage-C"> <button class="button-20" role="button">vers le projet</button> </a>
+
+			</section>
 
 
 		</div>

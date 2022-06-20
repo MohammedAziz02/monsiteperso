@@ -51,7 +51,7 @@
 				<div class="content">
 					<p>I'm a engenneir student at ENSAH.</p>
 					<ul class="actions">
-						<li><a href="landing.php" class="button next scrolly">Get Started</a></li>
+						<li><a href="projects.php" class="button next scrolly">Get Started</a></li>
 					</ul>
 				</div>
 			</div>
@@ -70,7 +70,7 @@
 						i wish you like my website.
 					</p>
 					<ul class="actions">
-						<li><a href="landing.html" class="button next">Get Started</a></li>
+						<li><a href="projects.php" class="button next">Get Started</a></li>
 					</ul>
 				</div>
 			</section>
